@@ -1,4 +1,4 @@
-# IDM-6660-20-SP17-LASTNAME-FIRSTNAME
+# IDM-6660-20-SP17-Boler-Brigit
 
 ## A template Git Repo for the Spring 2017 section of IDM 6660: Responsive Design
 
