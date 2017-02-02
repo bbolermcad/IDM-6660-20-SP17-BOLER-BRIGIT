@@ -23,6 +23,7 @@ html {
     height: 0;
 }
 
+
 body, body * {
     margin: 0;
     padding: 0;
@@ -30,6 +31,7 @@ body, body * {
     font-size: .666rem;
     line-height: 1rem;
 }
+
 
 body>* {
     display: block;
@@ -105,4 +107,28 @@ article p:hover:after {
 
 footer {
     margin-bottom: 3rem;
+}
+
+@media screen and (min-width 480px) {
+
+  body>* {
+      display: block;
+      width: 480px;
+      margin: 0 auto;
+  }
+
+  img.cover-img {
+      width: 100%;
+      max-width: 100%;
+      margin-bottom: 1rem;
+  }
+
+  article {
+    display: inline-block;
+  }
+
+  article p span {
+      display: block;
+  }
+
 }
