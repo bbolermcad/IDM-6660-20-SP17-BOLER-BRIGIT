@@ -202,30 +202,52 @@ footer {
   }
 
   body>* {
-      display: block;
       width: 1080px;
+      display: block;
       margin: 0 auto;
       background-color:
   }
 
+  .clearfix {
+      clear: both;
+  }
+
   header {
+    width: 33.3%;
+    border: solid red 1px;
     float: left;
-    max-width: 33%;
+    height: 100%;
   }
 
   header h1 {
-    line-height: 2rem;
+    line-height: 1.5rem;
   }
 
   img.cover-img {
-      width: 100%;
-      max-width: 33.3%;
+    width: 100%;
+    height: 100%;
   }
+
 
   article {
     display: inline-block;
+    border: red solid 1px;
+    width: 33.3%;
   }
 
-  article p span {
-      display: none;
+  article h1, h2 {
+    display: none;
   }
+
+    article p span {
+        display: none;
+    }
+
+    footer {
+      float: left;
+      width: 33.3%
+    }
+
+
+
+}
