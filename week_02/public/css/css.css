@@ -152,21 +152,33 @@ footer {
       margin: 0;
       padding: 0;
       list-style: none;
-      font-size: .75rem;
-      line-height: 1rem;
+      font-size: 1rem;
+      line-height: 1.5rem;
 
   }
 
   body>* {
       display: block;
-      width: 480px;
+      width: 720px;
       margin: 0 auto;
+  }
+
+  header {
+      margin: 1rem auto 2rem;
+      padding: 1rem;
+      background-color: #FF851B;
+  }
+
+  header h1 {
+    line-height: 2rem;
   }
 
   img.cover-img {
       width: 100%;
-      max-width: 100%;
+      max-width: 50%;
       margin-bottom: 1rem;
+      float: left;
+      margin-right: 1rem;
   }
 
   article {
@@ -174,12 +186,5 @@ footer {
     margin-bottom: 4rem;
   }
 
-  article p span {
-      display: block;
-  }
-
-  article p:after {
-      display: none;
-  }
 
 }
