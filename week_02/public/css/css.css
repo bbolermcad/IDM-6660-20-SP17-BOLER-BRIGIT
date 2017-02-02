@@ -32,7 +32,6 @@ body, body * {
     line-height: 1rem;
 }
 
-
 body>* {
     display: block;
     width: 300px;
@@ -109,7 +108,16 @@ footer {
     margin-bottom: 3rem;
 }
 
-@media screen and (min-width 480px) {
+@media screen and (min-width: 480px) {
+
+  body, body * {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      font-size: .75rem;
+      line-height: 1rem;
+
+  }
 
   body>* {
       display: block;
@@ -125,10 +133,15 @@ footer {
 
   article {
     display: inline-block;
+    margin-bottom: 4rem;
   }
 
   article p span {
       display: block;
+  }
+
+  article p:after {
+      display: none;
   }
 
 }
