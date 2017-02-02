@@ -170,7 +170,8 @@ footer {
   }
 
   header h1 {
-    line-height: 2rem;
+    line-height: 1.5rem;
+    padding: 10px;
   }
 
   img.cover-img {
@@ -186,5 +187,45 @@ footer {
     margin-bottom: 4rem;
   }
 
-
 }
+
+@media screen and (min-width: 1080px) {
+
+  body, body * {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      font-size: 1rem;
+      line-height: 1.5rem;
+      background-color: #ff851b;
+
+  }
+
+  body>* {
+      display: block;
+      width: 1080px;
+      margin: 0 auto;
+      background-color:
+  }
+
+  header {
+    float: left;
+    max-width: 33%;
+  }
+
+  header h1 {
+    line-height: 2rem;
+  }
+
+  img.cover-img {
+      width: 100%;
+      max-width: 33.3%;
+  }
+
+  article {
+    display: inline-block;
+  }
+
+  article p span {
+      display: none;
+  }
