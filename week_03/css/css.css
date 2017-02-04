@@ -25,6 +25,16 @@ body {
   margin: 0 auto;
 }
 
+#bodycontent .white {
+    padding: 19px 20px 33px 20px;
+    background: rgba(255,255,255,0.5) url(../img/sprite_tops_and_btms.png) bottom left no-repeat;
+}
+
+#bodycontent .grey {
+    padding: 10px 20px 20px 20px;
+    background: rgba(229,229,229,0.5) url(../img/sprite_tops_and_btms.png) -3130px bottom no-repeat;
+}
+
 a {
   text-decoration: none;
 }
@@ -38,10 +48,23 @@ header {
 
 header h2 strong{
   color: #333;
+  font-size: 20px;
 }
 
 header h3 strong {
   color: #333;
+  font-size: 16px;
+}
+
+.registration {
+    display: block;
+    width: 305px;
+    clear: left;
+}
+
+.registration ul li {
+  display: inline-block;
+  list-style: none;
 }
 
 .news {
@@ -49,7 +72,6 @@ background: rgba(229,229,229,0.5);
 padding: 20px;
 display: block;
 }
-
 
 
 .news .meta {
@@ -80,9 +102,8 @@ margin: 0 0 0 5px;
 .news h2 a {
   color: #333;
   text-transform: uppercase;
+  font-size: 20px;
 }
-
-
 
 
 #bodycontent h3, #bodycontent h3 a {
