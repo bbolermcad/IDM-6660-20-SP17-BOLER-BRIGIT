@@ -1,0 +1,76 @@
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+@font-face {
+    font-family: LeagueGothic;
+    src: url(fonts/leaguegothic-regular-webfont.ttf);
+}
+
+body {
+  font-size: 15px;
+  line-height: 1.25rem;
+  font-family: Helvetica, Arial, Verdana, sans-serif;
+  color: #666;
+  width: 300px;
+  background: url(../img/bg_tile.png) top center repeat;
+  margin: 0 auto;
+}
+
+header {
+    font-family: "LeagueGothic", Helvetica, Arial, Verdana, sans-serif;
+    text-transform: uppercase;
+    overflow: hidden;
+    color: #999;
+}
+
+header h2 strong {
+  color: #333;
+}
+
+header h3 strong {
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+#bodycontent h3, #bodycontent h3 a {
+    font-family: "LeagueGothic", Helvetica, Arial, Verdana, sans-serif;
+    text-transform: uppercase;
+    display: block;
+    color: #333;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+
+.logo {
+  max-width: 200px;
+}
+
+#heroimage .slide {
+  max-width: 320px;
+  margin: 0;
+}
+
+.btn.red, .btn.grey {
+    font-family: "LeagueGothic", Helvetica, Arial, Verdana, sans-serif;
+    background: #cc5500 url(../img/sprite_icons.png) right -35px no-repeat;
+    color: #fff;
+    font-size: 13px;
+    line-height: 13px;
+    display: inline;
+    padding: 3px 18px 1px 4px;
+    text-transform: uppercase;
+}
