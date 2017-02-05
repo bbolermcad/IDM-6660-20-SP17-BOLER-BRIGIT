@@ -23,20 +23,77 @@ body {
   width: 300px;
   background: url(../img/bg_tile.png) top center repeat;
   margin: 0 auto;
+
 }
 
+body a {
+    text-decoration: none;
+  }
+
+  body ul li {
+    list-style: none;
+  }
+
+
 #bodycontent .white {
-    padding: 19px 20px 33px 20px;
+    padding: 20px 20px 33px 20px;
+    /*padding: 10px 20px 20px 20px;*/
     background: rgba(255,255,255,0.5) url(../img/sprite_tops_and_btms.png) bottom left no-repeat;
 }
 
 #bodycontent .grey {
-    padding: 10px 20px 20px 20px;
-    background: rgba(229,229,229,0.5) url(../img/sprite_tops_and_btms.png) -3130px bottom no-repeat;
+    /*padding: 10px 20px 20px 20px;*/
+    padding: 20px 20px 33px 20px;
+    background: rgba(229,229,229,0.5) /*url(../img/sprite_tops_and_btms.png) -3130px bottom no-repeat;*/
+}
+
+#bodycontent p.grey {
+    margin: 0 0 3px 0;
 }
 
 a {
   text-decoration: none;
+}
+
+#bodycontent .btn.red {
+    font-family: "LeagueGothic", Helvetica, Arial, Verdana, sans-serif;
+    background: #cc5500 url(../img/sprite_icons.png) right -35px no-repeat;
+    color: #fff;
+    font-size: 13px;
+    line-height: 13px;
+    display: inline;
+    padding: 3px 18px 1px 4px;
+    text-transform: uppercase;
+}
+
+#bodycontent .btn.grey {
+    font-family: "LeagueGothic", Helvetica, Arial, Verdana, sans-serif;
+    background: #cc5500 url(../img/sprite_icons.png) right -35px no-repeat;
+    color: #fff;
+    font-size: 13px;
+    line-height: 13px;
+    display: inline;
+    padding: 3px 18px 1px 4px;
+    text-transform: uppercase;
+    background-color: #333;
+}
+
+
+#bodycontent h3, #bodycontent h3 a {
+    font-family: "LeagueGothic", Helvetica, Arial, Verdana, sans-serif;
+    text-transform: uppercase;
+    display: block;
+    color: #333;
+    font-size: 16px;
+    line-height: 16px;
+}
+#bodycontent h4, #bodycontent h4 a {
+  font-family: "LeagueGothic", Helvetica, Arial, Verdana, sans-serif;
+  text-transform: uppercase;
+  display: block;
+  color: #333;
+  font-size: 14px;
+  line-height: 16px;
 }
 
 header {
@@ -56,6 +113,12 @@ header h3 strong {
   font-size: 16px;
 }
 
+
+.logo {
+  max-width: 200px;
+}
+
+
 .registration {
     display: block;
     width: 305px;
@@ -65,6 +128,20 @@ header h3 strong {
 .registration ul li {
   display: inline-block;
   list-style: none;
+  padding: 5px;
+  border: 1px solid #666;
+}
+
+.registration {
+  border-bottom: 1px solid #d2d2d2;
+}
+
+#badges .Sold-Out{
+      background-color: #d2d2d2;
+}
+
+#badges .Avail {
+  background-color: #6CB519;
 }
 
 .news {
@@ -79,7 +156,7 @@ display: block;
     overflow: hidden;
 }
 
-.news .meta h4 a {
+#bodycontent .news .meta h4 a {
 background: #333;
 display: inline;
 text-decoration: none;
@@ -106,32 +183,7 @@ margin: 0 0 0 5px;
 }
 
 
-#bodycontent h3, #bodycontent h3 a {
-    font-family: "LeagueGothic", Helvetica, Arial, Verdana, sans-serif;
-    text-transform: uppercase;
-    display: block;
-    color: #333;
-    font-size: 16px;
-    line-height: 16px;
-}
-
-
-.logo {
-  max-width: 200px;
-}
-
 #heroimage .slide {
   max-width: 320px;
   margin: 0;
-}
-
-.btn.red, .btn.grey {
-    font-family: "LeagueGothic", Helvetica, Arial, Verdana, sans-serif;
-    background: #cc5500 url(../img/sprite_icons.png) right -35px no-repeat;
-    color: #fff;
-    font-size: 13px;
-    line-height: 13px;
-    display: inline;
-    padding: 3px 18px 1px 4px;
-    text-transform: uppercase;
 }
