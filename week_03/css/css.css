@@ -103,6 +103,36 @@ a {
    padding: 0;
    width: 300px;
    color: #fff;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   font-size: 17px;
+}
+
+.dropdown {
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: #DA5B00;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown a {
+  color: #fff;
+}
+
+.dropdown li {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.mainnav:hover .dropdown {
+  display: block;
+}
+
+.dropdown li:hover a:hover {
+  background-color: #fff;
+  color: #DA5B00;
 }
 
 header {
