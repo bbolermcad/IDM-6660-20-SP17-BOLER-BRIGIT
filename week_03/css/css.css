@@ -84,7 +84,7 @@ a {
     text-transform: uppercase;
     display: block;
     color: #333;
-    font-size: 16px;
+    font-size: 17px;
     line-height: 16px;
 }
 #bodycontent h4, #bodycontent h4 a {
@@ -92,8 +92,17 @@ a {
   text-transform: uppercase;
   display: block;
   color: #333;
-  font-size: 14px;
+  font-size: 15px;
   line-height: 16px;
+}
+
+.mainnav {
+  background-color: #DA5B00;
+  list-style-type: none;
+   margin: 0;
+   padding: 0;
+   width: 300px;
+   color: #fff;
 }
 
 header {
@@ -183,7 +192,64 @@ margin: 0 0 0 5px;
 }
 
 
+
 #heroimage .slide {
   max-width: 320px;
   margin: 0;
+}
+.otherpaxinfo {
+  margin: 0 auto;
+}
+.otherpaxinfo li {
+  display: block;
+  border-bottom: 1px solid #333;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.otherpaxinfo a {
+  text-decoration: none;
+  display: block;
+  font-size: 15px;
+  line-height: 1.25rem;
+  font-family: "LeagueGothic", Helvetica, Arial, Verdana, sans-serif;
+  color: #666;
+  text-transform: uppercase;
+}
+
+.paxcontent {
+  background-color: rgba(149,149,149,0.2);
+}
+.paxcontent a:hover {
+  color: #333;
+}
+
+.shows strong {
+  color: #fff;
+}
+
+.btnPrime {
+  background-color: rgba(0,149,209, 0.7);
+  padding: 5px;
+
+}
+
+.btnEast {
+  background-color: rgba(206,29,36, 0.7);
+  padding: 5px;
+}
+
+.btnSouth {
+  background-color: rgba(218,91,0, 0.7);
+  padding: 5px;
+}
+
+.btnAus {
+  background-color: rgba(238,167,34, 0.7);
+  padding: 5px;
+}
+
+.btnDev {
+  background-color: rgba(0,153,139, 0.7);
+  padding: 5px;
 }
