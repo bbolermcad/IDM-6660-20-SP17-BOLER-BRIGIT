@@ -198,14 +198,16 @@ footer {
       font-size: 1rem;
       line-height: 1.5rem;
       background-color: #ff851b;
-
+      /*Added to allow for absolutely positioned main element*/
+      position: relative;
   }
 
   body>* {
       width: 1080px;
       display: block;
       margin: 0 auto;
-      background-color:
+      /*Commented out becuase rule is incomplete*/
+      /*background-color:*/
   }
 
   .clearfix {
@@ -213,23 +215,70 @@ footer {
   }
 
   header {
-    width: 33.3%;
-    border: solid red 1px;
-    float: left;
-    height: 100%;
+    width: 320px;
+    /*Commented out because it's not needed*/
+    /*border: solid red 1px;*/
+    /*Commented out because header doesn't need to float*/
+    /*float: left;*/
+    /*Commented out because content should determine height in this case*/
+    /*height: 100%;*/
+    margin: 0;
+    padding: 10px;
   }
 
   header h1 {
     line-height: 1.5rem;
   }
 
-  img.cover-img {
+  /*Added main ruleset to place main behind the header
+  and use padding to push content past header*/
+  main {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -100;
+    padding-left: 320px;
     width: 100%;
-    height: 100%;
+  }
+
+  /*Allows articles to appear on the same lines with eachother*/
+  article {
+      display: block;
+      width: 320px;
+      float: left;
+      overflow: hidden;
+  }
+
+  article.clearfix {
+      clear:none;
+  }
+
+  /*Hides the h1, h2 and paragraphs in the articles*/
+  main article h1,
+  main article h2,
+  main article p {
+      display: none;
+  }
+
+  img.cover-img {
+    float: none;
+    width: 320px;
+    max-width: none;
+    display: inline;
+    /*float: left;*/
+    height: 500px;
+  }
+
+  footer {
+      /*z-index: -200;*/
+      background-color: transparent;
+      width: 320px;
+      margin: 0;
+      padding: 0;
   }
 
 
-  article {
+  /*article {
     display: inline-block;
     border: red solid 1px;
     width: 33.3%;
@@ -246,7 +295,7 @@ footer {
     footer {
       float: left;
       width: 33.3%
-    }
+    }*/
 
 
 
