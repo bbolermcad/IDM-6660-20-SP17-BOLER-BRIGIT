@@ -2,6 +2,7 @@
 <html>
   <head>
     <title>Week 3 Assignment</title>
+    <script src="javascript/jquery.js"></script>
     <link rel="stylesheet" type="text/css" href="css/css.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
@@ -45,7 +46,7 @@
                 <a class="btn red" href="/registration" title="Register Now">Register Now</a>
         </div>
     <div class="grey">
-        <h4>Badge Availability</h4>
+        <h3>Badge Availability</h3>
             <ul id="badges">
             	<li class="three Sold-Out"><strong>Three Day Pass</strong> <span>Sold Out</span></li>
             	<li class="fri Avail"><strong>Fri</strong> <span>Avail</span></li>
@@ -72,8 +73,9 @@
                 <a class="btn red" href="/psis" title="Check Out This Year's Games">Check Out This Year's Games</a>
         </div>
 
+
         <div class="grey">
-    <h4>Are you an indie developer?</h4>
+    <h3>Are you an indie developer?</h3>
         <p><!-- Submissions for the PAX South Indie Showcase are closed, but check out last year's winners!  -->
           The results are in and the 2017 PAX South Indie Showcase winners have been announced.  Check them out!</p>
         <a class="btn grey" href="mailto:psis@paxsite.com" title="Contact Us With Questions">Contact Us With Questions</a>
@@ -92,7 +94,7 @@
         <div class="grey">
           <h4><a href="http://twitter.com/#!/pax_lines" title="@PAX_Lines">@PAX_Lines</a></h4>
           <p>Live status updates on PAX theatre lines</p>
-          <p class="grey"><a class="btn grey" href="http://twitter.com/#!/pax_lines" title="Follow PAX_lines">Follow PAX_lines</a></p>
+          <a class="btn grey" href="http://twitter.com/#!/pax_lines" title="Follow PAX_lines">Follow PAX_lines</a>
         </div>
     </div>
 
@@ -108,16 +110,16 @@
 
   <div class="otherpaxinfo">
     <div class="paxcontent">
-
-        <h4 class="paxslidebutton">More about Penny Arcade</H4>
+        <h4 id="paxslidebutton">More about Penny Arcade</H4>
           <div id="slidedownpax">
     			<ul>
     				<li><a class="btnPA" href="http://penny-arcade.com/" title="Penny Arcade">Penny Arcade</a></li>
     				<li><a class="btnPAX" href="http://paxsite.com/" title="PAX">PAX</a></li>
     				<li><a class="btnTrenches" href="http://trenchescomic.com/" title="The Trenches">The Trenches</a></li>
-    				<li><a class="btnCP" href="http://childsplaycharity.org/" title="Child's Play">Child's Play</a></li>
+    				<li><a class="btnCP" href="http://childsplaycharity.org/" title="Child's Play">Childs Play</a></li>
     			</ul>
     		</div>
+      </div>
         <div id="showsAndSocial">
     				<ul class="shows">
     					<li><a class="btn btnPrime" href="http://west.paxsite.com/" title="PAX West: Seattle, WA"><strong>PAX</strong> West</a></li>
@@ -137,5 +139,6 @@
     <footer>
 
     </footer>
+    <script src="javascript/function.js"></script>
   </body>
 </html>

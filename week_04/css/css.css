@@ -12,7 +12,7 @@ html {
 
 @font-face {
     font-family: LeagueGothic;
-    src: url(fonts/leaguegothic-regular-webfont.ttf);
+    src: url(../fonts/leaguegothic-regular-webfont.ttf);
 }
 
 body {
@@ -32,6 +32,10 @@ body a {
 
   body ul li {
     list-style: none;
+  }
+
+  h1, h2, h3, h4, {
+    font-family: "LeagueGothic", Helvetica, Arial, Verdana, sans-serif;
   }
 
 #bodycontent {
@@ -61,7 +65,7 @@ a {
     font-family: "LeagueGothic", Helvetica, Arial, Verdana, sans-serif;
     background: #cc5500 url(../img/sprite_icons.png) right -35px no-repeat;
     color: #fff;
-    font-size: 13px;
+    font-size: 15px;
     line-height: 13px;
     display: inline;
     padding: 3px 18px 1px 4px;
@@ -72,7 +76,7 @@ a {
     font-family: "LeagueGothic", Helvetica, Arial, Verdana, sans-serif;
     background: #cc5500 url(../img/sprite_icons.png) right -35px no-repeat;
     color: #fff;
-    font-size: 13px;
+    font-size: 15px;
     line-height: 13px;
     display: inline;
     padding: 3px 18px 1px 4px;
@@ -86,8 +90,9 @@ a {
     text-transform: uppercase;
     display: block;
     color: #333;
-    font-size: 17px;
+    font-size: 20px;
     line-height: 16px;
+    letter-spacing: 1px;
 }
 #bodycontent h4, #bodycontent h4 a {
   font-family: "LeagueGothic", Helvetica, Arial, Verdana, sans-serif;
@@ -96,6 +101,7 @@ a {
   color: #333;
   font-size: 15px;
   line-height: 16px;
+  letter-spacing: 1px;
 }
 
 .mainnav {
@@ -107,7 +113,7 @@ a {
    color: #fff;
    padding-top: 5px;
    padding-bottom: 5px;
-   font-size: 17px;
+   font-size: 25px;
 }
 
 .dropdown {
@@ -115,7 +121,7 @@ a {
   position: absolute;
   right: 0;
   background-color: #DA5B00;
-  min-width: 160px;
+  min-width: 300px;
   z-index: 1;
 }
 
@@ -124,8 +130,8 @@ a {
 }
 
 .dropdown li {
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .mainnav:hover .dropdown {
@@ -142,16 +148,17 @@ header {
     text-transform: uppercase;
     overflow: hidden;
     color: #999;
+    padding-left: 20px;
 }
 
 header h2 strong{
   color: #333;
-  font-size: 20px;
+  font-size: 28px;
 }
 
 header h3 strong {
   color: #333;
-  font-size: 16px;
+  font-size: 30px;
 }
 
 
@@ -225,6 +232,7 @@ margin: 0 0 0 5px;
   color: #333;
   text-transform: uppercase;
   font-size: 20px;
+  font-family: "LeagueGothic", Helvetica, Arial, Verdana, sans-serif;
 }
 
 
@@ -242,14 +250,20 @@ margin: 0 0 0 5px;
   text-transform: uppercase;
   display: block;
   color: #333;
-  font-size: 15px;
+  font-size: 20px;
   line-height: 16px;
   text-align: center;
   margin: auto;
   padding-top: 10px;
   padding-bottom: 5px;
-  text-decoration: underline;
+
+}
+
+#paxslidebutton {
+  padding-top: 20px;
+  padding-bottom: 20px;
   background-color: rgba(149,149,149,0.2);
+  border: solid 1px #333;
 }
 .otherpaxinfo li {
   display: block;
@@ -257,10 +271,11 @@ margin: 0 0 0 5px;
   text-align: center;
   padding-top: 5px;
   padding-bottom: 5px;
+
 }
 
 #slidedownpax {
-  display: none;
+  display:none;
 }
 .otherpaxinfo a {
   text-decoration: none;
@@ -270,6 +285,7 @@ margin: 0 0 0 5px;
   font-family: "LeagueGothic", Helvetica, Arial, Verdana, sans-serif;
   color: #666;
   text-transform: uppercase;
+  font-size: 25px;
 }
 
 .paxcontent {
