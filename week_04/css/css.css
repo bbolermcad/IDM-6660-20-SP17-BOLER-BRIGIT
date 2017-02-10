@@ -20,9 +20,12 @@ body {
   line-height: 1.25rem;
   font-family: Helvetica, Arial, Verdana, sans-serif;
   color: #666;
-  max-width:350px;
   background: url(../img/bg_tile.png) top center repeat;
   margin: 0 auto;
+}
+
+.allcontent {
+
 
 }
 
@@ -41,7 +44,7 @@ body a {
   }
 
 #bodycontent {
-  width: 350px;
+margin: auto;
 }
 #bodycontent .white {
     padding: 20px 20px 33px 20px;
@@ -178,7 +181,6 @@ header h3 strong {
 
 .registration {
     display: block;
-    width: 305px;
     clear: left;
 }
 
