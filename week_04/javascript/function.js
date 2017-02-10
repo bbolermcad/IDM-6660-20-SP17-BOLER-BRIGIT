@@ -10,4 +10,9 @@
 $( "#paxslidebutton" ).click(function() {
   $( "#slidedownpax" ).slideDown( "slow", function() {
   });
+});
+
+$("#conslidebutton").click(function() {
+  $("#conslidedown").slideDown("slow", function () {
   });
+});

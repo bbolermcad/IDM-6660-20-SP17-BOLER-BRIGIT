@@ -78,9 +78,6 @@ a {
     letter-spacing: 1.5px;
 }
 
-#bodycontent .btd.red a {
-
-}
 
 #bodycontent .btn.grey {
     font-family: "LeagueGothic", Helvetica, Arial, Verdana, sans-serif;
@@ -125,14 +122,17 @@ a {
    padding-top: 5px;
    padding-bottom: 5px;
    font-size: 25px;
+   font-family: "LeagueGothic", Helvetica, Arial, Verdana, sans-serif;
 }
 
 .dropdown {
   display: none;
   position: absolute;
-  right: 0;
+  left: 0;
   background-color: #DA5B00;
-  min-width: 300px;
+  min-width: 250px;
+  margin-top: 20px;
+
   z-index: 1;
 }
 
@@ -175,7 +175,7 @@ header h3 strong {
 
 
 .logo {
-  max-width: 200px;
+max-width: 300px;
 }
 
 
@@ -196,8 +196,8 @@ header h3 strong {
 }
  #badges li {
    display: block;
-   margin top: 5px;
-   margin-bottom: 5px;
+   margin top: 10px;
+   margin-bottom: 10px;
  }
 #badges .Sold-Out{
       background-color: #d2d2d2;
@@ -250,8 +250,9 @@ margin: 0 0 0 5px;
 
 
 #heroimage .slide {
-  max-width: 320px;
-  margin: 0;
+  margin: 0 auto;
+  max-width: 100%;
+  padding-left: 10px;
 }
 .otherpaxinfo {
   margin: 0 auto;
@@ -306,7 +307,20 @@ margin: 0 0 0 5px;
 .paxcontent a:hover {
   color: #333;
 }
+/* other show button and slide down*/
+#conslidebutton {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: rgba(149,149,149,0.2);
+  border: solid 1px #333;
+  margin-bottom: 0px;
+}
 
+#conslidedown {
+  display:none;
+  margin-top: 0px;
+  background-color: rgba(149,149,149,0.2);
+}
 .shows strong {
   color: #fff;
 }
