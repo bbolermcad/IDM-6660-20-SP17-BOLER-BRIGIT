@@ -16,3 +16,5 @@ $("#conslidebutton").click(function() {
   $("#conslidedown").slideDown("slow", function () {
   });
 });
+
+/*javascript for onclick menu*/

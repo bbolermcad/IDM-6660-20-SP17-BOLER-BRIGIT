@@ -22,6 +22,7 @@ body {
   color: #666;
   background: url(../img/bg_tile.png) top center repeat;
   margin: 0 auto;
+  padding-left: 15px;
 }
 
 .allcontent {
@@ -44,7 +45,8 @@ body a {
   }
 
 #bodycontent {
-margin: auto;
+margin: 0 auto;
+padding-left: 15px;
 }
 #bodycontent .white {
     padding: 20px 20px 33px 20px;
@@ -145,11 +147,11 @@ a {
   padding-bottom: 10px;
 }
 
-.mainnav:hover .dropdown {
+.mainnav:active .dropdown {
   display: block;
 }
 
-.dropdown li:hover a:hover {
+.dropdown li:active a:active {
   background-color: #fff;
   color: #DA5B00;
 }
@@ -160,6 +162,7 @@ header {
     overflow: hidden;
     color: #999;
     padding-left: 20px;
+    text-align: center;
     letter-spacing: 1.5px;
 }
 
@@ -252,10 +255,11 @@ margin: 0 0 0 5px;
 #heroimage .slide {
   margin: 0 auto;
   max-width: 100%;
-  padding-left: 10px;
+  padding-left: 15px;
 }
 .otherpaxinfo {
   margin: 0 auto;
+  padding-left: 15px;
 }
 
 .otherpaxinfo h4, .otherpaxinfo h4 a {

@@ -6,4 +6,4 @@ I did some corrections for my own sake.
 per the class-
 3. Updated the HTML to include more "sections" and "articles" tags instead of divs
 4. Made the content wider
-5. Fixed the menu so it is full span
+5. Fixed the menu so it is full span and so the drop down aligns correctly
