@@ -8,3 +8,4 @@ per the class-
 4. Made the content wider
 5. Fixed the menu so it is full span and so the drop down aligns correctly
 6. Adjusted padding on extra content
+7. Fixed the news content but couldn't exactly figure out how to do it the correct way
