@@ -110,7 +110,7 @@ a {
   display: block;
   color: #333;
   font-size: 15px;
-  line-height: 16px;
+  line-height: 1.25rem;
   letter-spacing: 1.5px;
 }
 
@@ -132,7 +132,7 @@ a {
   position: absolute;
   left: 0;
   background-color: #DA5B00;
-  min-width: 250px;
+  min-width: 350px;
   margin-top: 20px;
 
   z-index: 1;
@@ -145,6 +145,7 @@ a {
 .dropdown li {
   padding-top: 10px;
   padding-bottom: 10px;
+  text-align: center;
 }
 
 .mainnav:active .dropdown {
@@ -218,7 +219,7 @@ display: block;
 
 
 .news .meta {
-    font-size: 16px;
+    font-size: 15px;
     overflow: hidden;
 }
 
@@ -288,7 +289,11 @@ margin: 0 0 0 5px;
   text-align: center;
   padding-top: 5px;
   padding-bottom: 5px;
+  padding-left: 0px;
+}
 
+.otherpaxinfo ul {
+  padding-left: 0px;
 }
 
 #slidedownpax {
