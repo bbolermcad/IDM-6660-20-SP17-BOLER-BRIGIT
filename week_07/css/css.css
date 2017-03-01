@@ -1,0 +1,21 @@
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+@font-face {
+    font-family: JosefinSans;
+    src: url(../fonts/JosefinSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: FiraSans;
+    src: url(../fonts/FiraSans-Regular.otf);
+}
