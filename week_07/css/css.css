@@ -19,3 +19,78 @@ html {
     font-family: FiraSans;
     src: url(../fonts/FiraSans-Regular.otf);
 }
+
+h1, h2, h3, h4, h5 {
+  font-family: JosefinSans;
+  font-weight: bold;
+}
+
+h1 {
+  color: #F2477C;
+}
+
+h2 {
+  background-color: #36A9C6;
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+h3 {
+  color: #36A9C6;
+}
+body {
+  font-family: FiraSans;
+  font-weight: normal;
+  margin: 0 auto;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+}
+
+li {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+nav {
+  background-color: #F2477C;
+  color: white;
+}
+
+nav li a {
+  color: white;
+}
+
+.rating {
+  color: #821C3E;
+}
+
+.contact {
+  background-color: #36A9C6;
+  color: white;
+}
+
+.contact h3 {
+  color: white;
+}
+
+.whyus i {
+  background-color: #F2477C;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 45px;
+  vertical-align: middle;
+  padding: 20px;
+  padding-top: 27px;
+  color: white;
+}
