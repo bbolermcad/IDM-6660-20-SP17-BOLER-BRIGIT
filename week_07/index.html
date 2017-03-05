@@ -9,9 +9,10 @@
   </head>
   <body>
     <header>
+
       <nav class="mainnav">
-        <i class="fa fa-bars" aria-hidden="true"></i>
-        <ul>
+        <i onclick="myFunction()" class="menu fa fa-bars fa-2x" aria-hidden="true"></i>
+        <ul id="myDropdown" class="dropdown-content">
           <li><a href=#>Home</a></li>
           <li><a href=#>Why Us</a></li>
           <li><a href=#>Sign Up</a></li>
@@ -19,15 +20,29 @@
           <li><a href=#>Livestream</a></li>
           <li><a href=#>About</a></li>
         </ul>
+
+
+        <!--<ul>
+          <li class="dropdown"> <i onclick="myFunction()" class="menu fa fa-bars fa-2x" aria-hidden="true"></i>
+          <li><a href=#>Home</a></li>
+          <li><a href=#>Why Us</a></li>
+          <li><a href=#>Sign Up</a></li>
+          <li><a href=#>Rules</a></li>
+          <li><a href=#>Livestream</a></li>
+          <li><a href=#>About</a></li>
+        </ul>-->
     </nav>
+    <div class="headerimage">
+
+  </div>
   </header>
     <section class="maincontent">
       <section class="contact">
         <h2>The best fun in the city.</h2>
         <div class="contacticons">
-          <i class="fa fa-phone" aria-hidden="true"></i>
-          <i class="fa fa-envelope" aria-hidden="true"></i>
-          <i class="fa fa-map-marker" aria-hidden="true"></i>
+          <i class="fa fa-phone fa-2x" aria-hidden="true"></i>
+          <i class="fa fa-envelope fa-2x" aria-hidden="true"></i>
+          <i class="fa fa-map-marker fa-2x" aria-hidden="true"></i>
         </div>
         <div class="fullcontact">
           <h3>Contact</h3>
@@ -49,7 +64,9 @@
     <section class="whyus">
       <h1>Why Fun City?</h1>
       <article class="cages">
-        <i class="fa fa-heart fa-4x fa-fw" aria-hidden="true"></i>
+        <div class="icon"><i class="fa fa-heart fa-4x fa-fw" aria-hidden="true"></i>
+          <h3>No Cages.  Ever.</h3>
+        </div>
         <div class="detail">
           <p>This an introduction text. It has a fixed size, and a custom line height, so you can experiment with it. Lorem ipsum dolor sit amet.</p>
         </div>
@@ -57,13 +74,16 @@
       <article class="grooming">
         <div class="icon">
         <i class="fa fa-scissors fa-4x fa-fw" aria-hidden="true"></i>
+        <h3>Onsite Grooming</h3>
       <div>
         <div class="detail">
           <p>This an introduction text. It has a fixed size, and a custom line height, so you can experiment with it. Lorem ipsum dolor sit amet.</p>
         </div>
       </article>
       <article class="play">
+        <div class="icon">
         <i class="fa fa-play fa-4x fa-fw" aria-hidden="true"></i>
+        <h3>Biggest Play Area</h3>
         <div class="detail">
           <p>This an introduction text. It has a fixed size, and a custom line height, so you can experiment with it. Lorem ipsum dolor sit amet.</p>
         </div>
@@ -114,12 +134,14 @@
             en convallis feugiat.</p>
           </div>
 
-            <button class="button"><a href="#">Visit us Today!</a></button>
+            <button class="button"><a href="#">See More</a></button>
       </article>
     </section>
 
     <section class="about">
+      <h2>About Us</h2>
       <article class="owner">
+        <img class="aboutpic" alt="owner of fun city dogs" src="img/owner.jpg">
         <h3>Owner</h3>
         <p>Lorem ipsum dolor sit amet, consectetur
             adipiscing elit. Cras dapibus vulputate
@@ -128,8 +150,9 @@
             Vestibulum condimentum lectus in
             convallis feugiat.</p>
       </article>
-      <article class="owner">
-        <h3>Owner</h3>
+      <article class="history">
+          <img class="aboutpic" alt="outside of fun city dogs" src="img/building.jpeg">
+        <h3>History</h3>
         <p>Lorem ipsum dolor sit amet, consectetur
             adipiscing elit. Cras dapibus vulputate
             diam eu pretium. Mauris elit orci,
