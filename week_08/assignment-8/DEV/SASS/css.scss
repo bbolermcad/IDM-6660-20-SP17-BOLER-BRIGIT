@@ -1,0 +1,79 @@
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+html {
+background-color: #F9F7FA;
+}
+
+body, body * {
+
+    list-style: none;
+    line-height: 1.2rem;
+    padding: 0px;
+}
+
+
+@font-face {
+    font-family: JosefinSans;
+    src: url(../fonts/JosefinSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: FiraSans;
+    src: url(../fonts/FiraSans-Regular.otf);
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: JosefinSans;
+  font-weight: bold;
+}
+
+h1 {
+  color: #F2477C;
+  font-size: 1.5em;
+}
+
+h2 {
+  background-color: #36A9C6;
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+h3 {
+  color: #36A9C6;
+}
+body {
+  font-family: FiraSans;
+  font-weight: normal;
+  margin: 0 auto;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+}
+
+li {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+
+@import "mobile";
+@import "tablet";
+@import "desktop";

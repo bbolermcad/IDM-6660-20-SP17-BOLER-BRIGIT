@@ -1,0 +1,36 @@
+@media screen and (min-width: 1080px) {
+    nav {
+        background-color: #F2477C;
+    }
+
+    nav .dropdown-content  {
+      display: block;
+      margin: auto;
+    }
+
+    nav .dropdown-content li {
+      display: inline-block;
+      margin-left: 5%;
+    }
+
+    .mainnav i {
+      display: none;
+    }
+
+    .whyus {
+      width: 90%
+    }
+
+    .whyus article {
+      display: inline-block;
+      width: 33%;
+    }
+
+    .whyus button {
+      margin: auto;
+    }
+
+    .testimonials .review3 {
+      display: block;
+    }
+}

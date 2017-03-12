@@ -1,0 +1,56 @@
+@media screen and (min-width: 720px) {
+  .fullcontact {
+    display: inline-block;
+    margin-left: 10%;
+  }
+  .contacticons {
+    display: none;
+  }
+
+  .contact h2 {
+    display: inline-block;
+    font-size: 1.8rem;
+    margin-left: 10%;
+  }
+  .contactlist {
+    display: inline-block;
+  }
+
+  .hours {
+    padding-left: 100px;
+  }
+
+  .contactlist li {
+    padding-bottom: 10px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+  .whyus .detail {
+    display: block;
+  }
+
+  .testimonials .review2 {
+    display: block;
+  }
+
+
+  .about img {
+    display: inline-block;
+    float: left;
+  }
+
+  .about article {
+    clear: both;
+    padding-bottom: 40px;
+    overflow: hidden;
+  }
+
+.aboutinfo {
+  padding-top: 20px;
+}
