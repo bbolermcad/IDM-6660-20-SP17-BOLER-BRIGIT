@@ -1,0 +1,34 @@
+html {
+	font-size: 14px;
+}
+
+body {
+	font-family:$body-font;
+	color: $maincolor;
+	line-height: $line-height;
+	width: 100%;
+}
+
+.section {
+	margin: 0 auto;
+	width: $mobile-query-width;
+	padding-left: 10px;
+}
+
+ p { margin-bottom: $line-height *.5;
+ padding-left: 16px;
+padding-right: 16px;}
+
+ header {
+	 text-align: center;
+	 color: white;
+	 background-color: black;
+	 padding-top: 50px;
+	 padding-bottom: 50px;
+	 font-family: $header-font;
+	 margin-bottom: $line-height;
+ }
+
+ h1 { font-size: 3em;
+	 	margin-bottom: $line-height*.6;
+ }
