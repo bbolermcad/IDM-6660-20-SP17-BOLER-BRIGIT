@@ -9,15 +9,12 @@ body {
 	width: 100%;
 }
 
-.section {
+section {
 	margin: 0 auto;
 	width: $mobile-query-width;
-	padding-left: 10px;
 }
 
- p { margin-bottom: $line-height *.5;
- padding-left: 16px;
-padding-right: 16px;}
+ p { margin-bottom: $line-height *.5;}
 
  header {
 	 text-align: center;

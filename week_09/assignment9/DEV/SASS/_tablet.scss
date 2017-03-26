@@ -7,19 +7,17 @@
 body {
 	font-family:$body-font;
 	color: $maincolor;
-	line-height: $line-height;
+	line-height: $line-height*.9;
 	width: 100%;
 }
 
-.section {
+section {
 	margin: 0 auto;
 	width: $tablet-query-width;
 	padding-left: 10px;
 }
 
- p { margin-bottom: $line-height *.5;
- padding-left: 16px;
-padding-right: 16px;}
+ p { margin-bottom: $line-height *.5;}
 
  header {
 	 text-align: center;
@@ -33,6 +31,10 @@ padding-right: 16px;}
 
  h1 { font-size: 4em;
 	 	margin-bottom: $line-height*.8;
+ }
+
+ h2 {
+   font-size: 2em;
  }
 
 }

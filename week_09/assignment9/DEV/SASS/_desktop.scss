@@ -1,0 +1,24 @@
+@media screen and (min-width: 1024px) {
+
+  html {
+  font-size: 17px;
+}
+
+  body {
+  	font-family:$body-font;
+  	color: white;
+  	line-height: $line-height*1.1;
+  	width: 100%;
+    background-color: $maincolor;
+  }
+
+  section {
+  	margin: 0 auto;
+  	width: $desktop-query-width;
+
+  }
+
+  header {
+    background-color: $bloodred;
+  }
+}
