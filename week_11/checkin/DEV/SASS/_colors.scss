@@ -1,0 +1,20 @@
+body {
+  background-color: $color-four;
+  color: white;
+
+  @include bigphone {
+    background-color: $color-one;
+    color: black;
+  }
+
+  @include tablet {
+    background-color: $color-two;
+    color: black;
+  }
+
+  @include desktop {
+    background-color: $color-three;
+    color: black;
+  }
+
+}
