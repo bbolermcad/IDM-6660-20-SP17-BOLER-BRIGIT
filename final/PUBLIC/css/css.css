@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both; }
+
+@font-face {
+  font-family: JosefinSans;
+  src: url(../fonts/JosefinSans-Regular.ttf); }
+@font-face {
+  font-family: FiraSans;
+  src: url(../fonts/FiraSans-Regular.otf); }
+h1, h2, h3, h4, h5 {
+  font-family: "JosefinSans";
+  font-weight: bold; }
+
+h1 {
+  color: #F2477C;
+  font-size: 1.5em; }
+
+h2 {
+  background-color: #36A9C6;
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+h3 {
+  color: #36A9C6; }
+
+body {
+  font-family: FiraSans;
+  font-weight: normal;
+  margin: 0 auto;
+  width: 100%; }
+
+a {
+  text-decoration: none; }
+
+ul {
+  margin: 0; }
+
+li {
+  text-decoration: none;
+  list-style-type: none; }
+
+button {
+  background-color: #821C3E;
+  text-decoration: none;
+  color: white;
+  border: none;
+  padding: 15px 32px;
+  font-size: 1em;
+  font-family: JosefinSans;
+  font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
+  display: block; }
+
+button a {
+  color: white; }
+
+nav {
+  color: white;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-top: none; }
+  nav i {
+    background-color: #F2477C;
+    padding: 15px;
+    margin-top: none;
+    margin-left: 10px; }
+  nav li {
+    padding: 10px; }
+    nav li a {
+      color: white; }
+
+/*# sourceMappingURL=css.css.map */

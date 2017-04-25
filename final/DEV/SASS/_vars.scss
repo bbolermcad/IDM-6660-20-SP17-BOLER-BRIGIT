@@ -1,0 +1,30 @@
+
+//sizes
+
+$bigphone-width: 480px;
+$tablet-width: 768px;
+$desktop-width: 1024px;
+
+$line-height: 1.5rem;
+
+//fonts
+
+@font-face {
+    font-family: JosefinSans;
+    src: url(../fonts/JosefinSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: FiraSans;
+    src: url(../fonts/FiraSans-Regular.otf);
+}
+
+$headerfont: 'JosefinSans';
+$bodyfont: 'FiraSans';
+
+
+//colors
+
+$pink: #F2477C;
+$blue: #36A9C6;
+$purple: #821C3E;
