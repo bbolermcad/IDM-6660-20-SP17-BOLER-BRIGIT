@@ -7,6 +7,25 @@ $desktop-width: 1024px;
 
 $line-height: 1.5rem;
 
+@mixin bigphone {
+  @media (min-width: #{$bigphone-width}) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (min-width: #{$tablet-width}) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: #{$desktop-width}) {
+    @content;
+  }
+}
+
+
 //fonts
 
 @font-face {

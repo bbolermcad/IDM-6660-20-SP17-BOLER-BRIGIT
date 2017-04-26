@@ -6,6 +6,9 @@ h1, h2, h3, h4, h5 {
 h1 {
   color: $pink;
   font-size: 1.5em;
+
+  @include tablet {font-size: 2rem;}
+
 }
 
 h2 {
@@ -18,6 +21,8 @@ h2 {
 
 h3 {
   color: $blue;
+  @include tablet {font-size: 1.5rem;}
+
 }
 body {
   font-family: FiraSans;
