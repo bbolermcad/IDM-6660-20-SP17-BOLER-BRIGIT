@@ -223,10 +223,12 @@ header{
 }
 
 .livestream {
+  background: hsla(171, 35%, 45%, .5);
   background-image: url(../img/livestream.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+
   min-height: 300px;
 
   @include tablet {
@@ -235,6 +237,21 @@ header{
 
   @include tablet {
     min-height: 500px;
+  }
+
+
+  h2 {
+    color: white;
+    background-color: transparent;
+    padding: 0px;
+  }
+  .livestreaminfo {
+
+
+      .mediabutton {
+        width: 50%;
+        margin: auto;
+      }
   }
 }
 
