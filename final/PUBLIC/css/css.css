@@ -77,7 +77,8 @@ button {
   font-weight: bold;
   display: block;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  text-align: center; }
 
 button a {
   color: white; }
@@ -256,6 +257,13 @@ header {
   .livestream .livestreaminfo .mediabutton {
     width: 50%;
     margin: auto; }
+
+.gallery {
+  background-color: #2e959b; }
+  .gallery h2 {
+    color: white;
+    background-color: transparent;
+    padding: 0px; }
 
 .about {
   padding-bottom: 20px; }
