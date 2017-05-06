@@ -1,7 +1,5 @@
 nav {
   color: white;
-  padding-top: 15px;
-  padding-bottom: 15px;
   margin-top: none;
 
   @include desktop {
@@ -150,7 +148,7 @@ header{
 
       @include desktop {
         display: inline-block;
-        max-width: 33%;
+        width: 33%;
         }
 
 
@@ -182,7 +180,8 @@ header{
         display: none;
 
         @include tablet {
-          display: block;
+          display: inline-block;
+          max-width: 300px;
           }
 
 
@@ -196,6 +195,11 @@ header{
       article {
       padding-top: 10px;
       padding-bottom: 20px;
+
+      @include desktop {
+        display: inline-block;
+        width: 33%;
+      }
       }
 
     .reviews {
@@ -209,13 +213,17 @@ header{
           @include tablet {
             display: block;
             }
+
+            @include desktop {
+              display: inline-block;
+            }
           }
 
       .review3 {
         display: none;
 
         @include desktop {
-          display: block;
+          display: inline-block;
           }
         }
     }
@@ -249,7 +257,6 @@ header{
 
 
       .mediabutton {
-        width: 50%;
         margin: auto;
       }
   }
@@ -282,19 +289,23 @@ header{
     display: none;
 
     @include tablet {
-      display: inline-block;
+      display: block;
       float: left;
       }
 
     }
 
-  .article {
+  .info {
     padding-bottom: 20px;
 
     @include tablet {
-      clear: both;
       padding-bottom: 40px;
       overflow: hidden;
+
+    }
+
+    p {
+
     }
   }
 

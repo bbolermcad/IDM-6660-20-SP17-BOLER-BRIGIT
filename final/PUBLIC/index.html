@@ -12,7 +12,7 @@
       <label for="menu-controller-checkbox" class="menu-controller-label">&#9776;</label>
       <nav class="mainnav">
         <input type="checkbox" name="menu-controller-checkbox" id="menu-controller-checkbox" class="menu-controller-checkbox" value="value">
-        <ul>
+        <ul class="navlist">
           <label for="menu-controller-checkbox">X</label>
           <li><a href=#>Home</a></li>
           <li><a href=#>Why Us</a></li>
@@ -87,7 +87,7 @@
     <section class="livestream">
       <div class="livestreaminfo">
         <h2>Watch the fun happen live!</h2>
-        <a class="mediabutton" href="#">Livestreams</a>
+        <button class="mediabutton" href="#">Livestreams</a>
       </div>
     </section>
 
@@ -149,8 +149,9 @@
     <section class="about">
       <h2>About Us</h2>
       <div class="aboutinfo">
-      <article class="owner">
+      <article class="owner clearfix">
         <img class="aboutpic" alt="owner of fun city dogs" src="img/owner.jpg">
+        <div class="details">
         <h3>Owner</h3>
         <p>Lorem ipsum dolor sit amet, consectetur
             adipiscing elit. Cras dapibus vulputate
@@ -158,18 +159,19 @@
             ultricies id fermentum vel, porta et eros.
             Vestibulum condimentum lectus in
             convallis feugiat.</p>
-
+          </div>
       </article>
-      <article class="history">
+      <article class="history clearfix">
         <img class="aboutpic" alt="outside of fun city dogs" src="img/building.jpeg">
-        <h3>History</h3>
+        <div class="info">
+          <h3>History</h3>
         <p>Lorem ipsum dolor sit amet, consectetur
             adipiscing elit. Cras dapibus vulputate
             diam eu pretium. Mauris elit orci,
             ultricies id fermentum vel, porta et eros.
             Vestibulum condimentum lectus in
             convallis feugiat.</p>
-
+          </div>
       </article>
     </div>
     </section>

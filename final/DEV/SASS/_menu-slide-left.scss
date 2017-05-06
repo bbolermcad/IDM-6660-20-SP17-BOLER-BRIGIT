@@ -12,10 +12,11 @@
 .slide-left {
   position: relative;
 
-  ul {
+  ul.navlist {
     background-color: $pink;
     font-family: $headerfont;
     font-size: 2em;
+    left: -66%;
     height: 100%;
     line-height: $line-height * 2;
     padding: $line-height;
@@ -98,7 +99,7 @@
 
   .slide-left {
 
-  ul {
+  ul.navlist {
 
       position: relative;
         background-color: transparent;
@@ -152,3 +153,7 @@
 
 }
 }
+
+//article width 33% on detail max width of 300px
+//gave in the menu a class and specified all uls are part of that class in slide left
+//give menu left of -66

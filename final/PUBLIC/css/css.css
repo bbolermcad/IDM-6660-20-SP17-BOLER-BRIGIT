@@ -78,7 +78,7 @@ button {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  text-align: center; }
+  background-color: transparent; }
 
 button a {
   color: white; }
@@ -93,21 +93,22 @@ button a {
 
 .slide-left {
   position: relative; }
-  .slide-left ul {
+  .slide-left ul.navlist {
     background-color: #F2477C;
     font-family: "JosefinSans";
     font-size: 2em;
+    left: -66%;
     height: 100%;
     line-height: 3rem;
     padding: 1.5rem;
     position: absolute;
     top: 0;
     width: 66%; }
-    .slide-left ul a {
+    .slide-left ul.navlist a {
       display: block;
       margin-bottom: 1.5rem;
       width: 100%; }
-    .slide-left ul label {
+    .slide-left ul.navlist label {
       color: white;
       display: block;
       font-family: "FiraSans";
@@ -136,7 +137,7 @@ button a {
     display: none;
     visibility: hidden; }
 
-  .slide-left ul {
+  .slide-left ul.navlist {
     position: relative;
     background-color: transparent;
     height: inherit;
@@ -149,21 +150,19 @@ button a {
     margin-left: 15rem;
     margin-bottom: 1.5rem;
     align: center; }
-    .slide-left ul li {
+    .slide-left ul.navlist li {
       background-color: transparent;
       display: inline-block;
       margin: 0 1rem 0 0;
       padding: 0;
       text-align: left; }
-      .slide-left ul li a {
+      .slide-left ul.navlist li a {
         margin-bottom: 0; }
-    .slide-left ul label {
+    .slide-left ul.navlist label {
       display: none;
       visibility: hidden; } }
 nav {
   color: white;
-  padding-top: 15px;
-  padding-bottom: 15px;
   margin-top: none; }
   @media (min-width: 1024px) {
     nav {
@@ -270,7 +269,7 @@ header {
     @media (min-width: 1024px) {
       .whyus article {
         display: inline-block;
-        max-width: 33%; } }
+        width: 33%; } }
   .whyus i {
     background-color: #F2477C;
     width: 100px;
@@ -291,7 +290,8 @@ header {
     display: none; }
     @media (min-width: 768px) {
       .whyus .detail {
-        display: block; } }
+        display: inline-block;
+        max-width: 300px; } }
 
 .testimonials {
   padding-top: 20px;
@@ -299,6 +299,10 @@ header {
   .testimonials article {
     padding-top: 10px;
     padding-bottom: 20px; }
+    @media (min-width: 1024px) {
+      .testimonials article {
+        display: inline-block;
+        width: 33%; } }
   .testimonials .reviews {
     max-width: 80%;
     margin: auto;
@@ -308,11 +312,14 @@ header {
       @media (min-width: 768px) {
         .testimonials .reviews .review2 {
           display: block; } }
+      @media (min-width: 1024px) {
+        .testimonials .reviews .review2 {
+          display: inline-block; } }
     .testimonials .reviews .review3 {
       display: none; }
       @media (min-width: 1024px) {
         .testimonials .reviews .review3 {
-          display: block; } }
+          display: inline-block; } }
 
 .livestream {
   background: rgba(75, 155, 143, 0.5);
@@ -332,7 +339,6 @@ header {
     background-color: transparent;
     padding: 0px; }
   .livestream .livestreaminfo .mediabutton {
-    width: 50%;
     margin: auto; }
 
 .gallery {
@@ -355,13 +361,12 @@ header {
     display: none; }
     @media (min-width: 768px) {
       .about img {
-        display: inline-block;
+        display: block;
         float: left; } }
-  .about .article {
+  .about .info {
     padding-bottom: 20px; }
     @media (min-width: 768px) {
-      .about .article {
-        clear: both;
+      .about .info {
         padding-bottom: 40px;
         overflow: hidden; } }
 
