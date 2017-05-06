@@ -143,18 +143,21 @@ button a {
     height: inherit;
     left: 4rem;
     line-height: 1.5rem;
-    font-size: 1.5em;
+    font-size: 1.7em;
     padding: 0;
+    padding-bottom: 1.5rem;
     width: 100%;
     display: inline-block;
-    margin-left: 15rem;
-    margin-bottom: 1.5rem;
+    margin-left: 7.5rem;
+    /*margin-bottom: $line-height;*/
+    margin-top: 1.5rem;
     align: center; }
     .slide-left ul.navlist li {
       background-color: transparent;
       display: inline-block;
       margin: 0 1rem 0 0;
       padding: 0;
+      padding-left: 40px;
       text-align: left; }
       .slide-left ul.navlist li a {
         margin-bottom: 0; }
@@ -198,7 +201,7 @@ header {
       min-height: 400px; } }
   @media (min-width: 1024px) {
     header {
-      min-height: 700px; } }
+      min-height: 600px; } }
 
 .rating {
   color: #821C3E; }
@@ -208,9 +211,9 @@ header {
   color: white;
   position: relative;
   margin: 0, auto;
-  border: 1px solid #36A9C6; }
-  .contact h3 {
-    color: white; }
+  border: 1px solid #36A9C6;
+  margin-top: h3;
+    margin-top-color: white; }
   .contact h2 {
     padding: 0px; }
     @media (min-width: 768px) {
@@ -282,7 +285,8 @@ header {
     padding-top: 27px;
     color: white; }
   .whyus h3 {
-    color: #F2477C; }
+    color: #F2477C;
+    padding-top: 10px; }
   .whyus button {
     text-align: center;
     margin: auto; }
@@ -298,7 +302,7 @@ header {
   padding-bottom: 20px; }
   .testimonials article {
     padding-top: 10px;
-    padding-bottom: 20px; }
+    padding-bottom: 3rem; }
     @media (min-width: 1024px) {
       .testimonials article {
         display: inline-block;
@@ -320,6 +324,8 @@ header {
       @media (min-width: 1024px) {
         .testimonials .reviews .review3 {
           display: inline-block; } }
+  .testimonials .reviewtext {
+    padding-top: 10px; }
 
 .livestream {
   background: rgba(75, 155, 143, 0.5);
@@ -369,5 +375,8 @@ header {
       .about .info {
         padding-bottom: 40px;
         overflow: hidden; } }
+  @media (min-width: 768px) {
+    .about .history {
+      margin-top: 3rem; } }
 
 /*# sourceMappingURL=css.css.map */

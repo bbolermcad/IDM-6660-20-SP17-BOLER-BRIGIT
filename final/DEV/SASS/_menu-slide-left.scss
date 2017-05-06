@@ -106,12 +106,14 @@
         height: inherit;
         left: 4rem;
         line-height: $line-height;
-        font-size: 1.5em;
+        font-size: 1.7em;
         padding: 0;
+        padding-bottom: $line-height;
         width: 100%;
         display: inline-block;
-        margin-left: $line-height * 10;
-        margin-bottom: $line-height;
+        margin-left: $line-height * 5;
+        /*margin-bottom: $line-height;*/
+        margin-top: $line-height;
         align: center;
 
     li {
@@ -119,6 +121,7 @@
       display: inline-block;
       margin: 0 1rem 0 0;
       padding: 0;
+      padding-left: 40px;
       text-align: left;
 
       a { margin-bottom: 0; }

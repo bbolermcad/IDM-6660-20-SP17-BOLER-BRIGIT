@@ -49,7 +49,7 @@ header{
   }
 
   @include desktop {
-    min-height: 700px;
+    min-height: 600px;
   }
 }
 
@@ -63,6 +63,7 @@ header{
   position: relative;
   margin: 0, auto;
   border: 1px solid #36A9C6;
+  margin-top:
 
   h3 {
       color: white;
@@ -169,6 +170,7 @@ header{
 
   h3 {
       color: $pink;
+      padding-top: 10px;
       }
 
   button {
@@ -194,7 +196,7 @@ header{
 
       article {
       padding-top: 10px;
-      padding-bottom: 20px;
+      padding-bottom: $line-height*2;
 
       @include desktop {
         display: inline-block;
@@ -228,6 +230,9 @@ header{
         }
     }
 
+    .reviewtext {
+      padding-top: 10px;
+    }
 }
 
 .livestream {
@@ -303,10 +308,12 @@ header{
       overflow: hidden;
 
     }
-
-    p {
-
-    }
   }
 
+    .history {
+      @include tablet {
+      margin-top: $line-height*2;
+
+      }
+    }
 }
