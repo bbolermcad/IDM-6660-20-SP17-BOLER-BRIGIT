@@ -108,6 +108,8 @@ button a {
       display: block;
       margin-bottom: 1.5rem;
       width: 100%; }
+    .slide-left ul.navlist a:hover {
+      text-decoration: underline; }
     .slide-left ul.navlist label {
       color: white;
       display: block;
@@ -247,13 +249,14 @@ header {
   @media (min-width: 768px) {
     .fullcontact {
       display: block;
-      margin-right: 10%;
-      float: right; } }
+      margin-right: 20%;
+      float: right;
+      padding-bottom: 1.5rem; } }
+  .fullcontact li {
+    padding-bottom: 5px; }
   @media (min-width: 768px) {
     .fullcontact .contactlist {
-      display: inline-block; } }
-  @media (min-width: 768px) {
-    .fullcontact .contactlist {
+      display: inline-block;
       padding-left: 100px; } }
 
 .whyus {

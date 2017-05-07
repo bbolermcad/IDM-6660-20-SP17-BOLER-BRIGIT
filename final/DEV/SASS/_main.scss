@@ -112,21 +112,23 @@ header{
 
   @include tablet {
     display:block;
-    margin-right: 10%;
+    margin-right: 20%;
     float: right;
+    padding-bottom: $line-height;
     }
 
+
+    li {
+      padding-bottom: 5px;
+    }
     .contactlist {
       @include tablet {
         display: inline-block;
-      }
-    }
-
-    .contactlist {
-      @include tablet {
         padding-left: 100px;
       }
     }
+
+
 }
 
 .whyus {
