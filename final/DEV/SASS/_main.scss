@@ -271,21 +271,38 @@ header{
 
 .gallery {
   background-color: $green;
+  padding-top: 20px;
+
 
   h2 {
     color: white;
     background-color: transparent;
+
     padding: 0px;
+  }
+
+  .pictures {
+    padding-top: 20px;
+    width: 50%;
+    margin: 0 auto;
+
+
+    img {
+      padding-bottom: 10px;
+      display: inline-block;
+    }
   }
 }
 
 .about {
   padding-bottom: 20px;
 
+
   .aboutinfo {
     width: 80%;
     margin: auto;
     text-align: center;
+    padding-top: 20px;
 
     @include tablet {
       padding-top: 20px;
@@ -313,6 +330,9 @@ header{
   }
 
     .history {
+
+      padding-top: 20px;
+
       @include tablet {
       margin-top: $line-height*2;
 

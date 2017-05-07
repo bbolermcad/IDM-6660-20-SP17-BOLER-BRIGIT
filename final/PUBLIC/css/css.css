@@ -351,18 +351,27 @@ header {
     margin: auto; }
 
 .gallery {
-  background-color: #2e959b; }
+  background-color: #2e959b;
+  padding-top: 20px; }
   .gallery h2 {
     color: white;
     background-color: transparent;
     padding: 0px; }
+  .gallery .pictures {
+    padding-top: 20px;
+    width: 50%;
+    margin: 0 auto; }
+    .gallery .pictures img {
+      padding-bottom: 10px;
+      display: inline-block; }
 
 .about {
   padding-bottom: 20px; }
   .about .aboutinfo {
     width: 80%;
     margin: auto;
-    text-align: center; }
+    text-align: center;
+    padding-top: 20px; }
     @media (min-width: 768px) {
       .about .aboutinfo {
         padding-top: 20px; } }
@@ -378,8 +387,10 @@ header {
       .about .info {
         padding-bottom: 40px;
         overflow: hidden; } }
-  @media (min-width: 768px) {
-    .about .history {
-      margin-top: 3rem; } }
+  .about .history {
+    padding-top: 20px; }
+    @media (min-width: 768px) {
+      .about .history {
+        margin-top: 3rem; } }
 
 /*# sourceMappingURL=css.css.map */
