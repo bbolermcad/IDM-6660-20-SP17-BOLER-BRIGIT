@@ -3,6 +3,7 @@
 
 $bigphone-width: 480px;
 $tablet-width: 768px;
+$laptop-width: 920px;
 $desktop-width: 1024px;
 
 $line-height: 1.5rem;
@@ -15,6 +16,12 @@ $line-height: 1.5rem;
 
 @mixin tablet {
   @media (min-width: #{$tablet-width}) {
+    @content;
+  }
+}
+
+@mixin laptop {
+  @media (min-width: #{$laptop-width}) {
     @content;
   }
 }

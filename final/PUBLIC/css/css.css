@@ -67,6 +67,10 @@ button {
   margin-right: auto;
   display: block; }
 
+button:hover {
+  background-color: #58132a;
+  text-decoration: underline; }
+
 .mediabutton {
   text-decoration: none;
   color: white;
@@ -79,6 +83,14 @@ button {
   margin-left: auto;
   margin-right: auto;
   background-color: transparent; }
+
+.mediabutton:hover {
+  background-color: #2e959b;
+  text-decoration: underline; }
+
+.gallerybutton:hover {
+  background-color: white;
+  color: #2e959b; }
 
 button a {
   color: white; }
@@ -103,7 +115,8 @@ button a {
     padding: 1.5rem;
     position: absolute;
     top: 0;
-    width: 66%; }
+    width: 66%;
+    z-index: 1000; }
     .slide-left ul.navlist a {
       display: block;
       margin-bottom: 1.5rem;
@@ -124,12 +137,15 @@ button a {
       width: 1.5rem; }
   .slide-left .menu-controller-label {
     background-color: #F2477C;
+    color: white;
     display: block;
-    font-size: 0;
+    font-size: 2.25rem;
     height: 3rem;
     line-height: 0;
     margin-bottom: 1.5rem;
-    width: 3.5625rem; }
+    width: 3.5625rem;
+    padding-top: 20px;
+    padding-left: 10px; }
 
 @media (min-width: 1024px) {
   .slide-left .menu-controller-checkbox ~ ul {
@@ -145,9 +161,10 @@ button a {
     height: inherit;
     left: 4rem;
     line-height: 1.5rem;
-    font-size: 1.7em;
+    font-size: 1.2em;
+    font-weight: bold;
     padding: 0;
-    padding-bottom: 1.5rem;
+    padding-bottom: 0.75rem;
     width: 100%;
     display: inline-block;
     margin-left: 7.5rem;
@@ -203,7 +220,7 @@ header {
       min-height: 400px; } }
   @media (min-width: 1024px) {
     header {
-      min-height: 600px; } }
+      min-height: 700px; } }
 
 .rating {
   color: #821C3E; }
@@ -214,8 +231,14 @@ header {
   position: relative;
   margin: 0, auto;
   border: 1px solid #36A9C6;
-  margin-top: h3;
-    margin-top-color: white; }
+  padding-top: 10px;
+  margin-top: -30px;
+  z-index: 0; }
+  @media (min-width: 1024px) {
+    .contact {
+      margin-top: 0px; } }
+  .contact h3 {
+    color: white; }
   .contact h2 {
     padding: 0px; }
     @media (min-width: 768px) {
@@ -232,6 +255,7 @@ header {
       margin-bottom: 0; } }
 
 .contacticons {
+  padding-top: 20px;
   padding-bottom: 10px;
   width: 50%;
   margin: auto;
@@ -271,6 +295,7 @@ header {
     text-align: center; }
   .whyus article {
     text-align: center;
+    padding-top: 20px;
     padding-bottom: 20px; }
     @media (min-width: 1024px) {
       .whyus article {
@@ -292,7 +317,8 @@ header {
     padding-top: 10px; }
   .whyus button {
     text-align: center;
-    margin: auto; }
+    margin: auto;
+    margin-top: 20px; }
   .whyus .detail {
     display: none; }
     @media (min-width: 768px) {
@@ -311,22 +337,39 @@ header {
         display: inline-block;
         width: 33%; } }
   .testimonials .reviews {
-    max-width: 80%;
+    width: 80%;
+    max-width: 1700px;
     margin: auto;
     text-align: center; }
+    @media (min-width: 920px) {
+      .testimonials .reviews .review {
+        max-width: 200px; } }
+    @media (min-width: 1024px) {
+      .testimonials .reviews .review {
+        max-width: 500px; } }
     .testimonials .reviews .review2 {
       display: none; }
       @media (min-width: 768px) {
         .testimonials .reviews .review2 {
           display: block; } }
+      @media (min-width: 920px) {
+        .testimonials .reviews .review2 {
+          display: inline-block;
+          max-width: 200px; } }
       @media (min-width: 1024px) {
         .testimonials .reviews .review2 {
-          display: inline-block; } }
+          display: inline-block;
+          max-width: 500px; } }
     .testimonials .reviews .review3 {
       display: none; }
+      @media (min-width: 920px) {
+        .testimonials .reviews .review3 {
+          display: inline-block;
+          max-width: 200px; } }
       @media (min-width: 1024px) {
         .testimonials .reviews .review3 {
-          display: inline-block; } }
+          display: inline-block;
+          max-width: 500px; } }
   .testimonials .reviewtext {
     padding-top: 10px; }
 
@@ -340,19 +383,27 @@ header {
   @media (min-width: 768px) {
     .livestream {
       min-height: 350px; } }
-  @media (min-width: 768px) {
+  @media (min-width: 920px) {
     .livestream {
-      min-height: 500px; } }
+      min-height: 400px; } }
   .livestream h2 {
     color: white;
     background-color: transparent;
-    padding: 0px; }
+    padding: 0px;
+    padding-top: 40px; }
   .livestream .livestreaminfo .mediabutton {
-    margin: auto; }
+    margin-top: 100px; }
+    @media (min-width: 768px) {
+      .livestream .livestreaminfo .mediabutton {
+        margin-top: 150px; } }
+    @media (min-width: 920px) {
+      .livestream .livestreaminfo .mediabutton {
+        margin-top: 200px; } }
 
 .gallery {
   background-color: #2e959b;
-  padding-top: 20px; }
+  padding-top: 20px;
+  padding-bottom: 20px; }
   .gallery h2 {
     color: white;
     background-color: transparent;
@@ -366,12 +417,14 @@ header {
       display: inline-block; }
 
 .about {
-  padding-bottom: 20px; }
+  padding-bottom: 20px;
+  margin-top: 20px; }
   .about .aboutinfo {
     width: 80%;
     margin: auto;
     text-align: center;
-    padding-top: 20px; }
+    padding-top: 20px;
+    max-width: 700px; }
     @media (min-width: 768px) {
       .about .aboutinfo {
         padding-top: 20px; } }

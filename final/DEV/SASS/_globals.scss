@@ -59,6 +59,11 @@ button  {
 
 }
 
+button:hover {
+  background-color: #58132a;
+  text-decoration: underline;
+}
+
 .mediabutton {
   text-decoration: none;
   color: white;
@@ -71,6 +76,16 @@ button  {
   margin-left: auto;
   margin-right: auto;
   background-color: transparent;
+}
+
+.mediabutton:hover {
+  background-color: $green;
+  text-decoration: underline;
+}
+
+.gallerybutton:hover {
+  background-color: white;
+  color: $green;
 }
 
 button a {

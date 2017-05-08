@@ -23,6 +23,7 @@
     position: absolute;
     top: 0;
     width: 66%;
+    z-index: 1000;
 
 
   a {
@@ -66,13 +67,15 @@
     .menu-controller-label {
 
         background-color: $pink;
+        color: white;
         display: block;
-        font-size: 0;
+        font-size: $line-height *1.5;
         height: $line-height * 2;
         line-height: 0;
         margin-bottom: $line-height;
         width: $line-height * 2.375;
-
+        padding-top: 20px;
+        padding-left: 10px;
         }
 
 }
@@ -108,9 +111,10 @@
         height: inherit;
         left: 4rem;
         line-height: $line-height;
-        font-size: 1.7em;
+        font-size: 1.2em;
+        font-weight: bold;
         padding: 0;
-        padding-bottom: $line-height;
+        padding-bottom: $line-height / 2;
         width: 100%;
         display: inline-block;
         margin-left: $line-height * 5;
