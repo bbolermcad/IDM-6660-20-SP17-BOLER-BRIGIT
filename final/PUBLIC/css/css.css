@@ -214,13 +214,29 @@ header {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 300px; }
+  min-height: 300px;
+  position: relative; }
   @media (min-width: 768px) {
     header {
       min-height: 400px; } }
   @media (min-width: 1024px) {
     header {
       min-height: 700px; } }
+  header .logo {
+    position: absolute;
+    right: -5%;
+    bottom: 10px;
+    height: 200px; }
+    @media (min-width: 768px) {
+      header .logo {
+        right: 10%;
+        bottom: 10px;
+        height: 250px; } }
+    @media (min-width: 920px) {
+      header .logo {
+        right: 5%;
+        bottom: 10px;
+        height: 350px; } }
 
 .rating {
   color: #821C3E; }
@@ -445,5 +461,13 @@ header {
     @media (min-width: 768px) {
       .about .history {
         margin-top: 3rem; } }
+
+footer {
+  color: white;
+  font-family: "FiraSans";
+  background-color: #F2477C;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px; }
 
 /*# sourceMappingURL=css.css.map */

@@ -43,6 +43,7 @@ header{
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 300px;
+  position: relative;
 
   @include tablet {
     min-height: 400px;
@@ -51,6 +52,26 @@ header{
   @include desktop {
     min-height: 700px;
   }
+
+  .logo {
+    position: absolute;
+    right: -5%;
+    bottom: 10px;
+    height: 200px;
+
+
+      @include tablet{
+        right: 10%;
+        bottom: 10px;
+        height: 250px;
+      }
+
+      @include laptop {
+        right: 5%;
+        bottom: 10px;
+        height: 350px;
+      }
+    }
 }
 
 .rating {
@@ -379,4 +400,13 @@ header{
 
       }
     }
+}
+
+footer {
+  color: white;
+  font-family: $bodyfont;
+  background-color: $pink;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
